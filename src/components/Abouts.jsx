@@ -10,11 +10,17 @@ const Abouts = () => {
         </div>
 
             <p className='text-xl mt-20 '>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores non velit alias nostrum laborum, animi cupiditate esse, perspiciatis at repudiandae magni dolore minus corporis adipisci placeat nisi, quia quisquam sunt optio? Veniam, ad! Ullam quasi necessitatibus voluptatum accusamus atque, sit assumenda quis, impedit aspernatur repellendus animi itaque tempora repellat qui.
+            Hello and welcome to my portfolio website! My name is Lahiru Prabath, and I am a front-end developer with a passion for building beautiful, user-friendly websites and web applications.
+
+I have a solid foundation in HTML, CSS, and JavaScript, as well as experience with popular frameworks like Angular and libraries like Tailwind CSS. I enjoy keeping up with the latest web development trends and technologies, and I'm always looking for new ways to enhance my skills and knowledge.
             </p>
         <br/>
             <p className='text-xl mt-10'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aliquid tempore labore consequatur animi voluptas voluptates doloribus placeat illo explicabo, mollitia officiis alias praesentium porro fugiat distinctio corrupti quidem quas libero vel qui nulla. Eligendi doloremque omnis, culpa eos, magni fugiat odit id aperiam quasi vero explicabo saepe in tempore!
+            As a developer, I believe that the key to success is not just technical expertise, but also a strong focus on user experience and design. I strive to create websites and applications that are both functional and visually appealing, with clean, efficient code that's easy to maintain and scale.
+<br/>
+In my free time, I love experimenting with new technologies and tools, and I'm always working on personal projects to improve my skills and knowledge. When I'm not coding, you can usually find me hiking, reading, or spending time with my family and friends.
+<br/>
+Thank you for taking the time to visit my portfolio website, and I look forward to working with you on your next project!
             </p>
 
     </div>

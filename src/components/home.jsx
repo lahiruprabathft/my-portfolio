@@ -10,7 +10,7 @@ const home = () => {
       ">
         <div className='flex flex-col justify-center h-full'>
           <h2 className="text-2xl text-center mt-4 sm:text-6xl sm:text-left font-bold text-white">I am a Front-End Developer</h2>
-          <p className='text-gray-500 py-4  max-w-md text-justify sm:text-left' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nulla autem quaerat dignissimos tenetur quis perferendis? Eveniets</p>
+          <p className='text-gray-500 py-4  max-w-md text-justify sm:text-left' > Hello and welcome to my portfolio website! My name is Lahiru Prabath, and I am a front-end developer with a passion for building beautiful, user-friendly websites and web applications.</p>
           <div className="m-0">
             <Link to='Portfolio' smooth duration={500} className=" group text-white w-fit px-6 py-3 my-1 mt-6 flex items-center justify-center m-auto sm:m-0 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer ">
               Portfolio 
