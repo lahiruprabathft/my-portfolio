@@ -11,7 +11,7 @@ const SocialLinks = () => {
             child:(
                 <>LinkedIn <FaLinkedin size={30}/> </>
             ),
-            href: "http://linkedin.com",
+            href: "https://www.linkedin.com/in/lahiru-prabath/",
             style: 'rounded-tr-md'
         },
         {
@@ -19,7 +19,7 @@ const SocialLinks = () => {
             child:(
                 <>GitHub <FaGithub size={30}/> </>
             ),
-            href: "http://github.com",
+            href: "https://github.com/lahiruprabathft",
           
         },
         {
@@ -27,7 +27,7 @@ const SocialLinks = () => {
             child:(
                 <>Mail <HiOutlineMail size={30}/> </>
             ),
-            href: "mailto:test@gmail.com",
+            href: "mailto:lahiruprabathft@gmail.com",
         
         },
         {
@@ -35,7 +35,7 @@ const SocialLinks = () => {
             child:(
                 <>Resume <BsFillPersonLinesFill size={30}/> </>
             ),
-            href: "/portfolio/public/Lahiru Prabath.pdf",
+            href: "/public/Lahiru-Prabath Resume 2023.pdf",
             style: 'rounded-tr-md',
             download:true,
         }
