@@ -3,9 +3,9 @@ import html from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import reactimg from '../assets/react.png'
-import nextjs from '../assets/nextjs.png'
+// import nextjs from '../assets/nextjs.png'
 import github from '../assets/github.png'
-import graphql from '../assets/graphql.png'
+// import graphql from '../assets/graphql.png'
 import tailwind from '../assets/tailwind.png'
 
 const experience = () => {
@@ -45,22 +45,10 @@ const experience = () => {
             style: 'shadow-gray-500'
         
         },
+       
+   
         {
             id:6,
-            src: nextjs,
-            title: 'NextJs',
-            style: 'shadow-white'
-        
-        },
-        {
-            id:7,
-            src: graphql,
-            title: 'GraphQL',
-            style: 'shadow-orange-500'
-        
-        },
-        {
-            id:8,
             src: github,
             title: 'GitHub',
             style: 'shadow-sky-500'
@@ -69,10 +57,10 @@ const experience = () => {
 
     ]
   return (
-    <div name='Experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen sm:px-6 pt-[250px] lg:pt-[100px] '>
+    <div name='Experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen sm:px-6'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div className='text-center lg:text-left' >
-            <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline '>Experience</p>
+            <p className='subheading'>Skills</p>
             <p className='py-6 ' >My Expirence are follows</p>
         </div>
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-7 px-12 sm:px-0'>
