@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div name='Contact' className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white overflow-hidden'>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-screen'>
-            <div className='pb-8 text-center lg:text-left' >
+            <div className='pb-8 text-center lg:text-left ' >
                 <p className='subheading'>Contact</p>
-                <p className='py-6'>Submit below form to get in touch with me</p>
+                <p className='py-6 text-center'>Submit below form to get in touch with me</p>
             </div>
 
             <div className='flex justify-center items-center pb-[100px]'>
