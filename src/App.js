@@ -13,7 +13,7 @@ import Carousel from "./components/Carousel";
 
 function App() {
   return (
-   <div>
+   <div className='overflow-hidden'>
       <Navbar />
       <Home />
       <SocialLinks/>

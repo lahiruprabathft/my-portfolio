@@ -76,7 +76,7 @@ const Carousel = () => {
       {projects.map((project, index) => (
         <div
           key={project.id}
-          className={`w-1/5 h-2/5 transform  max-md:w-full  max-md:h-auto max-md:my-20 max-md:pl-4 ${
+          className={`w-1/5 h-2/5 transform  max-md:w-full  max-md:h-auto max-md:my-[8rem] max-md:pl-4 ${
             index === selected
               ? 'scale-150'
               : index === (selected - 1 + projects.length) % projects.length ||

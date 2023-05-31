@@ -1,5 +1,6 @@
 import React from 'react'
 import Heroimage from '../assets/hero.jpg'
+import { FaLinkedin } from 'react-icons/fa';
 
 const Abouts = () => {
   return (
@@ -13,11 +14,23 @@ const Abouts = () => {
         <div className='sm:flex max-md:flex-col-reverse max-md:text-center'> 
             <div className='w-full mt-12 sm:w-1/2'>
                   <img src={Heroimage} alt=""  className='w-[300px] my-[80px] max-md:w-[350px] border-4 border-cyan-400 hover:border-yellow-300 duration-200 
-                  shadow-yellow-400 max-md:ml-0'/>
+                  shadow-yellow-400'/>
            
            <div className='mb-4'>
-            <p className='mb-2 text-sm'>Click the Bellow to Download My Resume</p>
-              <div className='ml-20 max-md:m-0'> <a href="/public/Lahiru-Prabath Resume 2023.pdf" class="buttonDownload">Download</a> </div> 
+            <p className='mb-5 text-sm ml-6  max-md:mr-8' > Find Out More About me in LinkedIn </p>
+              <div className='w-[300px] max-md:w-full max-md:text-center'> 
+             {/* button  */}
+
+             <a
+      href="https://www.linkedin.com/in/lahiru-prabath/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700"
+    >
+      <FaLinkedin className="mr-2" />
+      Follow me on LinkedIn
+    </a>
+              </div> 
            </div>
              </div>
             <div className='w-full text-justify px-2  sm:w-1/2'>

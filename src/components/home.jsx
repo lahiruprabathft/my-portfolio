@@ -8,11 +8,11 @@ import DNA from './dna'
 
 const home = () => {
   return (
-    <div name="Home" className="h-screen w-full  bg-gradient-to-b  from-black via-black to-gray-800 max-md:w-full ">
+    <div name="Home" className="h-screen w-full  bg-gradient-to-b  from-black via-black to-gray-800 max-md:w-full overflow-hidden ">
       <div className="max-w-screen-lg mx-auto animate flex flex-col items-center justify-center h-full px-4 md:flex-row
       ">
         <div className='flex flex-col justify-center h-full w-[60%] max-md:w-full max-md:text-center'>
-          <h1 className='text-white text-5xl max-md:mt-[150px] max-md:text-2xl space-y-5 '>Hello, My name is &nbsp;
+          <h1 className='text-white text-5xl max-md:mt-[10px] max-md:text-[2rem] space-y-5 '>Hello, My name is &nbsp;
                       
                       <span className='text-yellow-600 font-bold fades'>L</span>
                       <span className='text-yellow-600 font-bold fades'>A</span>
@@ -23,7 +23,9 @@ const home = () => {
                     
           
           </h1>
-          <h2 className="text-left font-semibold text-white text-md my-1 max-md:text-center slide">I am a Front-End Developer +  IT Tech Support Specialist </h2>
+          {/* <h2 className="text-left font-semibold text-cyan-400 text-md my-2 max-md:text-center max-md:mt-6 animation1 max-md:hidden" >I am a Front-End Developer +  IT Tech Support Specialist </h2> */}
+          <h2 className='text-left font-semibold text-cyan-400 text-md my-2 max-md:text-center max-md:mt-6 animation2' >I am a Front-End Developer +  IT Specialist </h2>
+  
           <p className='text-gray-500 py-4  max-w-md text-justify sm:text-left' > Hello and welcome to my portfolio website! My name is Lahiru Prabath, and I am a front-end developer with a passion for building beautiful, user-friendly websites and web applications.</p>
           <div className="m-0">
             <Link to='Portfolio' className=" group text-white w-fit px-6 py-3 my-6 mt-6 flex items-center justify-center m-auto  sm:m-0 rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer ">
