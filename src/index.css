@@ -459,10 +459,10 @@
 
   .animation2 {
     border-right: .1em solid black;
-    width: 32.20ch;
+    width: 45.20ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 5s steps(32, end),
+    animation: typing 5s steps(45, end),
                blink-caret .5s step-end infinite alternate;
                
   }
